@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/Inteli/Documents/GitHub/Template_Aluno/02_AUT_EST_ENTREGA/Semana 2/curriculo.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="150"/><column_width id="3" width="2477"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,11:mainExperiencia"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">INSERT INTO Experiencia(nome_da_empresa, data_inicial, data_final, cargo, descricao, id_usuario)
+VALUES (&quot;Dell&quot;, &quot;14/03/2020&quot;, &quot;14/03/2022&quot;, &quot;Analista de Sistemas&quot;, &quot;realização de estudos de processos a fim de encontrar o melhor caminho racional para que a informação possa ser processada.&quot;, );
+INSERT INTO Habilidades(ilustrador, photoshop, corel_draw, dreamweaver, html5css3, id_usuario)
+VALUES (false, true, true, true, false);
+INSERT INTO realizacoes (titulo, ano, descricao, id_usuario)
+VALUES (&quot;Aprovado na EFOMM&quot;, 2020, &quot;A prova da EFOMM é uma das mais difíceis do Brasil, que cobra alguns assuntos de ensino superior de alunos do ensino médio&quot;);
+INSERT INTO Usuario (endereco, telefone, email, descricao, cargo, nome)
+VALUES (&quot;Rua M.M.D.C.-80&quot;, 11971048416, &quot;thomaz.barboza@sou.inteli.edu&quot;, &quot;Estudante da graduação em Ciência da Computação, no Inteli&quot;, &quot;Estudante&quot;,&quot;Thomaz&quot;);
+INSERT INTO Personalidades (nome, valor, id_usuario)
+VALUES (&quot;Proatividade&quot;, 5, 1);
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
