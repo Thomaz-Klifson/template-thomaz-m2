@@ -260,11 +260,7 @@ body {
 	   width: 70%;
 	   background:rgb(151, 151, 26);
 	}
-  .bold {
-    font-weight: 700;
-    font-size: 5px;
-    text-transform: uppercase;
-  }
+
 }
 
 /*seletores para tablets*/
@@ -277,11 +273,7 @@ body {
 	   width: 70%;
 	   background:#00f;
 	}
-  .bold {
-    font-weight: 300;
-    font-size: 5px;
-    text-transform: uppercase;
-  }
+
 }
 
 /*seletores para celurares*/
@@ -298,9 +290,5 @@ body {
 	   float: none;
        height: auto;
 	}
-  .bold {
-    font-weight: 100;
-    font-size: 5px;
-    text-transform: uppercase;
-  }
+
 }
